@@ -31,6 +31,11 @@ or
 
 The server will start running on http://localhost:8000/.
 
+## Other notes
+
+* To create superuser: ```python manage.py createsuperuser```
+* Note that is_staff and is_superuser = True
+* Make changes to models.py -> run ```python manage.py makemigrations``` then ```python manage.py migrate```
 
 
 
