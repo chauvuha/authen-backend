@@ -18,9 +18,12 @@ To get started with the project, follow the instructions below.
 1. Clone the repository:
    ``` git clone https://github.com/chauvuha/authen-backend.git ```
 2. The ReactJS frontend of this repository can be found at https://github.com/chauvuha/authen-frontend.git
+3. virtualenv env
+4. source env/bin/activate
+5. pip install -r requirements.txt
 
 ### Usage
-To run the Django development server, use the following command:
+After that, to run the Django development server, use the following command:
 
 ```python manage.py runserver ```
 or 
